@@ -79,7 +79,7 @@ async function getServer({ user, sessionId }) {
 const app = express();
 app.use(express.json());
 
-// Middleware to simulate user authentication - use OAuth or similar in production
+// Middleware to simulate user authentication - use OAuth in production
 app.use((req, res, next) => {
   req.user = { id: "user-123", roles: ["admin"] }; // Test different roles here
   next();
