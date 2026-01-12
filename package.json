@@ -10,7 +10,7 @@
   "type": "module",
   "description": "",
   "dependencies": {
-    "@cerbos/grpc": "^0.23.0",
+    "@cerbos/grpc": "^0.24.0",
     "@modelcontextprotocol/sdk": "^1.13.0",
     "express": "^5.1.0"
   }
